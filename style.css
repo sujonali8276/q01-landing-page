@@ -18,8 +18,12 @@
     padding: 10px 10px;
 }
 
-.log{
+.logo{
     flex:2;
+}
+
+.logo h5{
+    font-size: 1.5rem;
 }
 
 .menu{
@@ -32,6 +36,8 @@
     display: flex;
     flex-direction: row;
     flex:1;
+    justify-content: center;
+    align-items: center;
 }
 
 .search-more{
@@ -40,7 +46,7 @@
 
 .menu-item a{
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin: 0 auto;
     color: black;
 }
@@ -60,7 +66,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px 20px;
+    padding: 0px 10px;
     border: 1px solid gray;
     border-radius: 20px;
 }
@@ -73,7 +79,8 @@
 }
 
 #search{
-    font-size: 25px;
+    font-size: 15px;
+    margin-right: 20px;
 }
 
 .more-item{
@@ -84,15 +91,15 @@
     align-items: flex-end;
 }
 .more-item .item{
-    width: 8px;
-    height: 8px;
+    width: 5px;
+    height: 5px;
     border-radius: 50%;
     background-color: gray;
     margin: auto 0px;
 }
 
 #main-section{
-    flex:11;
+    flex:13;
     background-image: url('background1.jpg');
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -123,25 +130,25 @@
 }
 
 .left button{
-    min-width: 200px;
+    min-width:150px;
     border-radius: 30px;
     color: wheat;
     border: 1px solid white;
     background-color: rgba(255,255,255,0);
-    padding: 15px 10px;
-    margin-bottom: 30px;
+    padding: 10px 7px;
+    /* margin-bottom: 30px; */
     cursor: pointer;
 }
 
 .icon-container{
-    margin-top: 100px;
+    margin-top: 50px;
     display: flex;
 
 }
 
 .icon{
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
     background: white;
     border-radius: 50%;
     z-index: 1;
@@ -150,7 +157,7 @@
 }
 
 .icon i{
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     color: white;
     margin-right: 30px;
     z-index: 2;
@@ -197,17 +204,18 @@
 }
 
 .media-item{
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     background-color: white;
     position: relative;
     z-index: 1;
     cursor: pointer;
+    margin-top: 10px;
 }
 
 .media-item i{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     position: absolute;
     z-index: 2;
     top: 10px;
